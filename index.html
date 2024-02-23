@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>The Ninth Workshop on the LLVM Compiler Infrastructure in HPC</title>
+    <title>The Tenth Workshop on the LLVM Compiler Infrastructure in HPC</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -17,14 +17,14 @@
   <body>
     
       <header>
-        <h1>The Ninth Annual Workshop on the LLVM Compiler Infrastructure in HPC</h1>
-        <p>Workshop held in conjunction with SC23 - Sunday, November 12, 2023 - Denver, Colorado, USA</p>
+        <h1>The Tenth Annual Workshop on the LLVM Compiler Infrastructure in HPC</h1>
+        <p>Workshop held in conjunction with SC24 - November 17 - 22, 2024 - Atlanta, Georgia, USA</p>
       </header>
     
       <div id="banner">
         <span id="logo"></span>
 
-        <a href="https://github.com/LLVM-HPC-2023-Workshop" class="button fork"><strong>View On GitHub</strong></a>
+        <a href="https://github.com/LLVM-HPC-2024-Workshop" class="button fork"><strong>View On GitHub</strong></a>
       </div><!-- end banner -->
 
     <div class="wrapper">
@@ -33,8 +33,8 @@
       </nav>
       <section>
 <p> 
-  <img src="images/SC23-Logo.png" align=left alt="SC23Logo" style="padding-right:5px; padding-left:5px; height:150px;">
-  Held in conjunction with <a href="http://sc23.supercomputing.org/">SC23</a>: The 
+  <img src="images/SC24-Logo.png" align=left alt="SC24Logo" style="padding-right:5px; padding-left:5px; height:150px;">
+  Held in conjunction with <a href="http://sc24.supercomputing.org/">SC24</a>: The 
   International Conference for High <br>Performance Computing, Networking, Storage, and 
   Analysis, and in<br> cooperation with the IEEE Computer Society (<a href="https://www.computer.org//">IEEE CS</a>) 
   and the Association for Computing Machinery (<a href="https://www.acm.org/">ACM</a>). <br><br>
@@ -57,10 +57,12 @@
     software-development ecosystem for optimizing compilers, 
     dynamic-language execution engines, source-code analysis and 
     transformation tools, debuggers and linkers, and a whole host of 
-    programming-language and toolchain-related components. Now heavily 
-    used in both academia and industry, where it allows for rapid 
-    development of production-quality tools, LLVM is increasingly used 
-    in work targeted at high-performance computing. Research in, and 
+    programming-language and toolchain-related components.The recent surge
+    in AI development has further proven the efficacy of the LLVM
+    infrastructure as many predominant AI/ML compilation systems deployed
+    in practice leverage the MLIR framework to exploit high level
+    semantics provided by their frontends, while maintaining a production
+    grade and high performance software stack. Research in, and 
     implementation of, program analysis, compilation, execution, and 
     profiling has clearly benefited from the availability of a 
     high-quality, freely-available infrastructure on which to build. 
@@ -85,20 +87,23 @@
   <li>Tools for optimization, profiling, and feedback</li>
   <li>Source code transformation and analysis</li>
   <li>Gap analyses of open-source LLVM-based tools</li>
+  <li>Domain-specific compilation and optimization</li>
 </ul>
 
+<p>Please note: All particpants (authors, presenters, committee members, and attendees alike) are expected to follow both the
+  <a href="https://llvm.org/docs/CodeOfConduct.html">LLVM Code of Conduct</a> as well as the relevant SC24 conduct policies.</p>
 
 <h2>
 <a id="deadlines" class="anchor" href="#deadlines" aria-hidden="true"><span class="octicon octicon-link"></span></a>Deadlines</h2>
 
 <ul>
-  <li>Paper submissions due: August 16, 2023 (AoE)</li>
-  <li>Notification to authors of acceptance: September 8, 2023</li>
-  <li>Camera-ready papers due: September 29, 2023</li>
-  <li>Workshop takes place: November 12, 2023</li>
+  <li>Paper submissions due: August 16, 2024 (AoE)</li>
+  <li>Notification to authors of acceptance: September 6, 2024</li>
+  <li>Camera-ready papers due: September 27, 2024</li>
+  <li>Workshop takes place: November 17, 18, or 22, 2024</li>
 </ul>
 
-<p>Please see <a href="http://sc23.supercomputing.org/">the SC23 home page</a> for registration deadlines 
+<p>Please see <a href="http://sc24.supercomputing.org/">the SC24 home page</a> for registration deadlines 
   and other information associated with the parent event.  Pending the 
   acceptance of the final workshop proceedings, the selected papers will be
   published by <a href="https://ieeexplore.ieee.org/Xplore/home.jsp">IEEE Xplore</a>.</p>
@@ -107,9 +112,9 @@
 <a id="submissions" class="anchor" href="#submissions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Submissions</h2>
 
 <p>Please submit papers using the 
-  <a href="https://submissions.supercomputing.org/">SC23 Submissions</a> 
+  <a href="https://submissions.supercomputing.org/">SC24 Submissions</a> 
   system by selecting the 
-  <a href="https://submissions.supercomputing.org/?page=Submit&id=SC23WorkshopLLVMHPC2023FullPapersSubmission&site=sc23">"SC23 Workshop: LLVM-HPC2023 Full Papers"</a> form.
+  <a href="https://submissions.supercomputing.org/?page=Submit&id=SC24WorkshopLLVMHPC2024FullPapersSubmission&site=sc23">"SC24 Workshop: LLVM-HPC2024 Full Papers"</a> form.
   Papers must use the new proceedings templates and the CCS2012 guide (available <a href="https://www.acm.org/publications/proceedings-template">here</a>), should be no more than 12 pages (including references and figures), and must be at least 6 pages long.</p>
 
  <h2>
@@ -117,8 +122,8 @@
 
 <ul>
 <li>James Brodman, Intel</li>
+<li>Johannes de Fine Licht, NextSilicon</li>
 <li>Ryan Kabrick, Tactical Computing Laboratories</li>
-<li>Patrick McCormick, Los Alamos National Laboratory</li>
 <li>Alexis Perry-Holby, Los Alamos National Laboratory</li>
 </ul>
 
@@ -126,29 +131,16 @@
 <a id="program-committee" class="anchor" href="#program-committee" aria-hidden="true"><span class="octicon octicon-link"></span></a>Program Committee</h2>
 
 <ul>
-  <li>Madhur Amilkanthwar, NVIDIA</li>
-  <li>James Brodman, Intel Corporation</li>
-  <li>Sunita Chandrasekaran, University of Delaware</li>
-  <li>Christian DeLozier, US Naval Academy</li>
-  <li>Tobias Grosser, University of Edinburgh</li>
-  <li>Mary Hall, Univeristy of Utah</li>
-  <li>Ryan Kabrick, Tactical Computing Labs, LLC</li>
-  <li>Alice Koniges, University of Hawaii, Maui HPC Center</li>
-  <li>John Leidel, Tactical Computing Labs, LLC</li>
-  <li>Patrick McCormick, Los Alamos National Laboratory</li
-  <li>Cameron McInally, NVIDIA</li>
-  <li>Alexis Perry-Holby, Los Alamos National Laboratory</li>
-  <li>Nirmal Prajapati, Los Alamos National Laboratory</li>
-  <li>Nadav Rotem, Facebook</li>
-  <li>Amalee Wilson, Stanford Univeristy</li>
-  <li>Frank Winter, Thomas Jefferson National Accelerator Facility</li>
-  <li>Alex Zinenko, Google</li>
+  <li>TBD</li>
 </ul>
 
 <h2>
 <a id="contact-information" class="anchor" href="#contact-information" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact Information</h2>
 
 <p>Alexis Perry-Holby (<a href="mailto:aperry@lanl.gov">aperry@lanl.gov</a>)</p>
+<p>James Brodman (<a href="mailto:james.brodman@intel.com">james.brodman@intel.com</a>)</p>
+<p>Ryan Kabrick (<a href="mailto:rkabrick@tactcomplabs.com">rkabrick@tactcomplabs.com</a>)</p>
+<p>Johannes de Fine Licht (<a href="mailto:definelicht@inf.ethz.ch">definelicht@inf.ethz.ch</a>)</p>
 
       </section>
       <footer>
